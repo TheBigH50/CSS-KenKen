@@ -11,17 +11,20 @@ html {
 body {
   width: 90vw;
   height: 90vh;
-  margin: auto, center;
+  margin: auto;
   background-color: #222222;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); 
 }
 
 .grid-items {
+  aspect-ratio: 1/1;
+  display: flex;
+  padding: 5%;
   border: 0.1rem solid gray;
   font-size: 2rem;
   background-color: white;
