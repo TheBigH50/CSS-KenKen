@@ -4,12 +4,14 @@
 
 html {
   font-size: 10px;
+  width: fit-content;
+  height: fit-content;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  margin: 10px;
+  width: 90vw;
+  height: 90vh;
+  margin: auto, center;
   background-color: #222222;
 }
 
@@ -30,7 +32,7 @@ body {
 }
 
 .prompt {
-  position: absolute;
+  position: relative;
   top: 0%;
   right: 0%;
 }
