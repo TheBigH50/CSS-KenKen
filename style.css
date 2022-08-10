@@ -31,8 +31,12 @@ body {
   border-top: 0.5rem solid black;
 }
 
-#box1, #box3, #box5, #box7, #box9, #box10, #box11 #box12, #box13, #box15 {
-  border-left: 00.5rem solid black;
+#box1, #box3, #box5, #box7, #box9, #box10, #box11, #box13, #box15 {
+  border-left: 0.5rem solid black;
+}
+
+#box4, #box8, #box11, #box12, #box16 {
+  border-right: 0.5rem solid black;
 }
 
 .prompt {
