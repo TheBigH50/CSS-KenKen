@@ -3,14 +3,15 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 10px;  
 }
 
 body {
   max-width: max-content;
   max-height: max-content;
-  margin: 2.5%;
+  margin: auto;
   background-color: #222222;
+  position: center;
 }
 
 h1 {
