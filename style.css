@@ -39,6 +39,10 @@ body {
   border-right: 0.5rem solid black;
 }
 
+#box13, #box14, #box15, #box16 {
+  border-bottom: 0.5rem solid black;
+}
+
 .prompt {
   position: relative;
   top: 0%;
