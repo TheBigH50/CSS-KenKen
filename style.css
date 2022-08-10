@@ -24,7 +24,6 @@ body {
   display: flex;
   padding: 5%;
   border: 0.1rem solid gray;
-  font-size: 2rem;
   background-color: white;
 }
 
@@ -39,6 +38,7 @@ body {
 }
 
 .answer {
+  position: center;
   width: 50%;
   height: 50%;
   text-align: center;
@@ -50,5 +50,5 @@ body {
 }
 
 @media only screen and (min-width: 475px) {
-  html { font-size: 16px;}
+  .grid-items { font-size: 16px;}
 }
