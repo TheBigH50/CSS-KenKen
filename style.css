@@ -29,3 +29,8 @@ body {
   border-bottom: 0.5rem solid black;
 }
 
+.prompt {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
