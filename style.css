@@ -4,14 +4,12 @@
 
 html {
   font-size: 10px;
-  width: fit-content;
-  height: fit-content;
 }
 
 body {
-  width: 90vw;
-  height: 90vh;
-  margin: auto;
+  max-width: max-content;
+  max-height: max-content;
+  margin: 2.5%;
   background-color: #222222;
 }
 
